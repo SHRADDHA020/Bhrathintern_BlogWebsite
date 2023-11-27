@@ -1,0 +1,26 @@
+Step 1:Create a new directory for your project and navigate into it:
+
+mkdir blog_website
+cd blog_website
+
+Step 2:Initialize the Node.js project:
+
+npm init -y
+
+Step 3:Install Dependencies:
+
+npm install express mongoose body-parser
+
+express: Web framework for Node.js
+mongoose: MongoDB object modeling tool
+body-parser: Middleware for handling HTTP POST requests
+
+Step 4:Create Project Files:
+Create the following files in your project directory:
+
+index.js (main server file)
+public (directory for static files like CSS)
+style.css
+views (directory for HTML views)
+index.html
+post.html
